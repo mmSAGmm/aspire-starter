@@ -1,54 +1,39 @@
-# Build results
-bin/
-obj/
-artifacts/
-bin
-obj
-**/bin/
-**/obj/
-artifacts/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
 
 # User-specific files
-*.user
 *.suo
-*.rsuser
+*.user
+*.userosscache
 *.sln.docstates
 
-# VS Code
-.vscode/
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
 
-# Visual Studio
+Starter.ApiService/obj/
+
+# Visual Studio 2015
 .vs/
-*.dbmdl
-*.pfx
-*.publishsettings
-
-# ASP.NET Core secrets
-secrets.json
-
-# Logs
-*.log
-
-# Test results
-TestResults/
-*.trx
-
-# NuGet packages
-*.nupkg
-packages/
-!packages/build/
-
-# Entity Framework
-Migrations/
-
-# Web assets
-node_modules/
-bower_components/
-
-# Others
-*.tmp
-*.cache
-*.pidb
-*.svclog
-*.tlog
-*.ide
